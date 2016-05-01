@@ -1,0 +1,77 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>K-Town Car Share</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+	<div id="header">
+		<div>
+			<div class="logo">
+				<a href="../index.html"><center>K-Town Car Share</center></a>
+			</div>
+			<ul id="navigation">
+                <li>
+					<a href="index.html">Home</a>
+				</li>
+                <li class="active">
+					<a href="adminIndex.html">Admin Page</a>
+				</li>
+				<li>
+					<a href="adminGuide.html">Admin Guide</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+    <section id="memberinfo">
+        <div id="infopanel">
+        <form name="form2" method="post" action="php/viewAll.php">
+            <table width="100%" border="0" cellpadding="3" cellspacing="1" style="padding-top: 120px">
+                <tr>
+                    <td colspan="3"><center><strong>Admin Page</strong><center></td>
+                </tr>
+                <tr><td></td></tr>
+                <tr>
+                    <td colspan="3"><center><input type="submit" name="viewMem" value="View All Members Information"></center></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><center><input type="submit" name="viewRental" value="View All Member Rental History"></center></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><center><input type="submit" name="viewRever" value="View All Reservations & Edit"></center></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><center><input type="submit" name="viewComment" value="View All Comments"></center></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><center><input type="submit" name="carList" value="Car List"></center></td>
+                </tr>
+                
+                <tr>
+                    <td colspan="3"><center><input type="submit" name="locationList" value="Locations"></center></td>
+                </tr>
+                <tr>
+                    <td colspan="4"><center><input type="submit" name="today" value="View Reservation on given Day"></center></td>
+                </tr>
+                <tr>
+                    <td colspan="4"><center><input type="submit" name="showLoc" value="View Car at given Location"></center></td>
+                </tr>
+                <tr>
+                    <td colspan="4"><center><input type="submit" name="numRental" value="Car number of Rental"></center></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><center><input type="submit" name="logout" value="Logout"></center></td>
+                </tr>
+                
+            </table>
+        </form>
+        </div>
+    </section>
+    <div id="footer">
+		<div class="clearfix"><center>
+				© 2015 Renee Xu and Annie Lee</center>
+		</div>
+	</div>
+</body>
+<html>

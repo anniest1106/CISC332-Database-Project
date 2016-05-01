@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Profile</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+	<div id="header">
+		<div>
+			<div class="logo">
+				<a href="index.html"><center>K-Town Car Share</center></a>
+			</div>
+			<ul id="navigation">
+				<li>
+					<a href="index.html">Home</a>
+				</li>
+				<li class="active">
+					<a href="member_info.html">Profile</a>
+				</li>
+                <li>
+					<a href="userGuide.html">User Guide</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<section id="memberinfo">
+		<div id="infopanel">
+			<form name="form2" method="post" action="php/check_display.php">
+				<table width="100%" border="0" cellpadding="3" cellspacing="1" style="padding-top: 120px">
+					<tr>
+						<td colspan="3"><center><strong>Member Profile Page</strong><center></td>
+					</tr>
+					<tr><td></td></tr>
+					<tr>
+						<td colspan="3"><center><input type="submit" name="memb_info" value="Display member info"></center></td>
+					</tr>
+					<tr>
+						<td colspan="3"><center><input type="submit" name="reserve" value="Make Reservation"></center></td>
+					</tr>
+					<tr>
+						<td colspan="3"><center><input type="submit" name="rental_history" value="Display rental history/Cancel Reservation"></center></td>
+					</tr>
+                    <tr>
+                        <td colspan="3"><center><input type="submit" name="payFee" value="Pay Membership Fee"></center></td>
+                    </tr>
+						<td colspan="3"><center><input type="submit" name="view_comments" value="Go To Forum"></center></td>
+					</tr>
+					<tr>
+						<td colspan="3"><center><input type="submit" name="post_comments" value="Post Comment"></center></td>
+					</tr>
+					<tr>
+						<td colspan="3"><center><input type="submit" name="logout" value="Logout"></center></td>
+					</tr>
+				</table>
+			</form>
+		</div>
+	</section>
+	
+
+	<div id="footer">
+			<div class="clearfix"><center>
+					© 2015 Renee Xu and Annie Lee</center>
+			</div>
+		</div>	
+</body>
+<html>

@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>K-Town Car Share</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+	<div id="header">
+		<div>
+			<div class="logo">
+				<a href="index.html"><center>K-Town Car Share</center></a>
+			</div>
+			<ul id="navigation">
+				<li>
+					<a href="index.html">Home</a>
+				</li>
+				<li>
+					<a href="register.php">Register</a>
+				</li>
+				<li class="active">
+					<a href="login.html">Login</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<body>
+	<div style="padding-top: 80px">
+	<section id="loginBox">
+	<h2>Login</h2>
+	<form method="post" action="php/checklogin.php" class="minimal" name="login">
+		<label for="email">
+			Email:
+			<input type="text" name="email" id="email" placeholder="xxx@xxx.xxx" required="required" />
+		</label>
+		<label for="mypassword">
+			Password:
+			<input type="password" name="mypassword" id="mypassword" placeholder="Password" required="required" /><br/>
+		</label>
+		<button type="submit" class="btn-minimal">Sign in</button><br/><br/>
+		
+		<label style="color: #7A7A7A">Not a member yet? <a href="register.php">Register</a></label>
+	</form>
+	</section>
+	</div>
+    </body>	
+			
+	<div id="footer">
+		<div>
+				<center><a href="adminLogin.html">Admin Login</a></center>
+		</div>
+		<div class="clearfix"><center>
+				© 2015 Renee Xu and Annie Lee</center>
+		</div>
+	</div>	
+</body>
+</html>
